@@ -1,0 +1,3976 @@
+{
+  "examId": "ctfl-pt-120",
+  "language": "pt-BR",
+  "questionCount": 120,
+  "questions": [
+    {
+      "id": "ctfl-pt-001",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K2",
+      "difficulty": "easy",
+      "timeLimitSec": 60,
+      "stem": "Qual afirmação diferencia melhor 'teste' de 'depuração'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Teste corrige defeitos; depuração encontra falhas em produção."
+        },
+        {
+          "key": "B",
+          "text": "Teste busca encontrar falhas/defeitos; depuração localiza a causa e corrige."
+        },
+        {
+          "key": "C",
+          "text": "Teste é sempre manual; depuração é sempre automatizada."
+        },
+        {
+          "key": "D",
+          "text": "Teste só valida requisitos; depuração só valida necessidades do usuário."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Teste avalia o produto e busca evidenciar falhas/defeitos; depuração é a atividade de localizar a causa raiz e corrigir o problema.",
+      "tags": [
+        "fundamentos",
+        "depuracao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-002",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual das opções é um objetivo típico do teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provar que o software não possui defeitos."
+        },
+        {
+          "key": "B",
+          "text": "Reduzir o risco ao fornecer informações sobre a qualidade do produto."
+        },
+        {
+          "key": "C",
+          "text": "Eliminar completamente a necessidade de manutenção."
+        },
+        {
+          "key": "D",
+          "text": "Garantir que todos os requisitos foram implementados sem revisão."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Testes reduzem risco ao fornecer informação sobre qualidade e ao encontrar defeitos, mas não 'provam ausência' de defeitos.",
+      "tags": [
+        "objetivos",
+        "risco"
+      ]
+    },
+    {
+      "id": "ctfl-pt-003",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual princípio de teste afirma que não é possível testar tudo?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Teste depende do contexto."
+        },
+        {
+          "key": "B",
+          "text": "Teste exaustivo é impossível."
+        },
+        {
+          "key": "C",
+          "text": "Falácia da ausência de erros."
+        },
+        {
+          "key": "D",
+          "text": "Agrupamento de defeitos."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Como o espaço de entradas e caminhos é enorme, o teste exaustivo (tudo) é impraticável; por isso usamos seleção baseada em risco e técnicas.",
+      "tags": [
+        "principios"
+      ]
+    },
+    {
+      "id": "ctfl-pt-004",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "O que melhor descreve a 'falácia da ausência de erros'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Se poucos defeitos forem encontrados, o produto está perfeito."
+        },
+        {
+          "key": "B",
+          "text": "Se o sistema atender aos objetivos do usuário, ainda pode haver defeitos, mas isso pode ser aceitável."
+        },
+        {
+          "key": "C",
+          "text": "Remover todos os defeitos garante que o sistema atende às necessidades dos stakeholders."
+        },
+        {
+          "key": "D",
+          "text": "Se a taxa de falhas cair a zero, o produto está pronto para descontinuar testes automaticamente."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Mesmo com poucos/nenhum defeito conhecido, se o produto não atende às necessidades/objetivos, ele ainda 'falha' do ponto de vista do usuário. A falácia é achar que 'sem defeitos' = 'sucesso'.",
+      "tags": [
+        "principios",
+        "qualidade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-005",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual alternativa descreve corretamente um 'defeito' (defect)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Um resultado inesperado observado durante a execução."
+        },
+        {
+          "key": "B",
+          "text": "Uma imperfeição em um item de trabalho que pode causar uma falha."
+        },
+        {
+          "key": "C",
+          "text": "Um incidente registrado em produção."
+        },
+        {
+          "key": "D",
+          "text": "Uma inconsistência entre ambientes de teste."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Defeito é a imperfeição no artefato (código, requisito, design) que pode causar falha quando executado.",
+      "tags": [
+        "terminologia"
+      ]
+    },
+    {
+      "id": "ctfl-pt-006",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual das alternativas é um exemplo de 'falha' (failure)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Um requisito ambíguo."
+        },
+        {
+          "key": "B",
+          "text": "Um trecho de código incorreto que ainda não foi executado."
+        },
+        {
+          "key": "C",
+          "text": "O sistema retorna 500 ao salvar um formulário válido."
+        },
+        {
+          "key": "D",
+          "text": "Uma decisão de projeto inadequada."
+        }
+      ],
+      "correct": "C",
+      "explanation": "Falha é a manifestação observável do defeito durante execução: comportamento incorreto (ex.: erro 500).",
+      "tags": [
+        "terminologia"
+      ]
+    },
+    {
+      "id": "ctfl-pt-007",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em testes, o que significa 'nível de confiança' ao reportar qualidade?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Percentual de casos de teste automatizados."
+        },
+        {
+          "key": "B",
+          "text": "Grau de certeza baseado em evidências de teste dentro de uma cobertura definida."
+        },
+        {
+          "key": "C",
+          "text": "Quantidade de defeitos fechados no Jira."
+        },
+        {
+          "key": "D",
+          "text": "Tempo total gasto em testes."
+        }
+      ],
+      "correct": "B",
+      "explanation": "A confiança vem de evidência (resultados) e do quanto você cobriu do risco/escopo; não é só quantidade de automação/defeitos.",
+      "tags": [
+        "evidencia",
+        "cobertura"
+      ]
+    },
+    {
+      "id": "ctfl-pt-008",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K2",
+      "difficulty": "easy",
+      "timeLimitSec": 60,
+      "stem": "Qual opção melhor descreve 'shift-left'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adiar testes para depois do deploy."
+        },
+        {
+          "key": "B",
+          "text": "Executar testes mais cedo no ciclo de vida para obter feedback antecipado."
+        },
+        {
+          "key": "C",
+          "text": "Focar somente em testes de aceitação do usuário."
+        },
+        {
+          "key": "D",
+          "text": "Substituir revisões por automação."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Shift-left significa antecipar atividades de teste (incluindo revisões e testes em níveis mais baixos) para reduzir custo de defeitos e acelerar feedback.",
+      "tags": [
+        "shift-left",
+        "sdlc"
+      ]
+    },
+    {
+      "id": "ctfl-pt-009",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual nível de teste tem como foco principal componentes isolados?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Teste de sistema"
+        },
+        {
+          "key": "B",
+          "text": "Teste de aceitação"
+        },
+        {
+          "key": "C",
+          "text": "Teste de componente (unidade)"
+        },
+        {
+          "key": "D",
+          "text": "Teste de regressão"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Teste de componente/unidade foca em partes isoladas (funções, classes, módulos) geralmente com suporte do desenvolvedor.",
+      "tags": [
+        "niveis"
+      ]
+    },
+    {
+      "id": "ctfl-pt-010",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual alternativa é um exemplo de teste de aceitação?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Executar testes de API para validação de contrato interno."
+        },
+        {
+          "key": "B",
+          "text": "Verificar se o sistema atende critérios de aceitação do negócio em ambiente similar ao produção."
+        },
+        {
+          "key": "C",
+          "text": "Executar análise estática no pipeline."
+        },
+        {
+          "key": "D",
+          "text": "Rodar testes unitários em cada commit."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Teste de aceitação valida se o sistema atende necessidades/critério do negócio e stakeholders, frequentemente próximo ao uso real.",
+      "tags": [
+        "aceitacao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-011",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual afirmação sobre teste de regressão é correta?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Serve para encontrar defeitos introduzidos após mudanças."
+        },
+        {
+          "key": "B",
+          "text": "É executado apenas uma vez no final do projeto."
+        },
+        {
+          "key": "C",
+          "text": "Substitui testes exploratórios."
+        },
+        {
+          "key": "D",
+          "text": "Não deve ser automatizado."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Regressão ajuda a detectar efeitos colaterais de mudanças (correções, novas features, refatorações).",
+      "tags": [
+        "regressao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-012",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K2",
+      "difficulty": "easy",
+      "timeLimitSec": 60,
+      "stem": "Qual opção descreve corretamente teste de confirmação (retest)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Executar os mesmos testes para confirmar que um defeito foi corrigido."
+        },
+        {
+          "key": "B",
+          "text": "Executar testes para verificar se mudanças não quebraram funcionalidades existentes."
+        },
+        {
+          "key": "C",
+          "text": "Executar testes sem script para encontrar defeitos novos."
+        },
+        {
+          "key": "D",
+          "text": "Revisar requisitos para prevenir defeitos."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Reteste confirma a correção de um defeito específico; regressão procura efeitos colaterais.",
+      "tags": [
+        "reteste",
+        "regressao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-013",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual é um benefício típico de teste estático?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Detectar falhas em runtime."
+        },
+        {
+          "key": "B",
+          "text": "Encontrar defeitos cedo em requisitos/design/código sem executar o software."
+        },
+        {
+          "key": "C",
+          "text": "Medir desempenho sob carga."
+        },
+        {
+          "key": "D",
+          "text": "Validar integração com sistemas externos automaticamente."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Testes estáticos (revisões, análise estática) podem identificar defeitos precocemente, reduzindo custo de correção.",
+      "tags": [
+        "estatico",
+        "revisoes"
+      ]
+    },
+    {
+      "id": "ctfl-pt-014",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma revisão formal, qual papel é responsável por conduzir a reunião e garantir o processo?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Autor"
+        },
+        {
+          "key": "B",
+          "text": "Moderador (facilitador)"
+        },
+        {
+          "key": "C",
+          "text": "Escriba (registrador)"
+        },
+        {
+          "key": "D",
+          "text": "Gerente de projeto"
+        }
+      ],
+      "correct": "B",
+      "explanation": "O moderador garante que a revisão siga o processo e permaneça produtiva; o escriba registra achados.",
+      "tags": [
+        "revisao",
+        "papeis"
+      ]
+    },
+    {
+      "id": "ctfl-pt-015",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual técnica estática foca em regras e padrões aplicados automaticamente no código?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Walkthrough"
+        },
+        {
+          "key": "B",
+          "text": "Revisão por pares"
+        },
+        {
+          "key": "C",
+          "text": "Análise estática"
+        },
+        {
+          "key": "D",
+          "text": "Teste de sistema"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Análise estática usa ferramentas para verificar regras (complexidade, padrões, possíveis erros) sem executar o código.",
+      "tags": [
+        "analise-estatica"
+      ]
+    },
+    {
+      "id": "ctfl-pt-016",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual é um resultado esperado de uma revisão de requisitos bem conduzida?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Aumento de defeitos em produção."
+        },
+        {
+          "key": "B",
+          "text": "Detecção de ambiguidades e inconsistências antes do desenvolvimento."
+        },
+        {
+          "key": "C",
+          "text": "Eliminação da necessidade de testes dinâmicos."
+        },
+        {
+          "key": "D",
+          "text": "Substituição de critérios de entrada/saída."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Revisões detectam problemas de entendimento e qualidade do artefato cedo, antes de virar código.",
+      "tags": [
+        "requisitos",
+        "revisoes"
+      ]
+    },
+    {
+      "id": "ctfl-pt-017",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se idade < 18, bloquear cadastro; caso contrário, permitir. Usando Particionamento de Equivalência, qual conjunto de testes fornece cobertura mínima (1 por classe)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "idade=17 e idade=18"
+        },
+        {
+          "key": "B",
+          "text": "idade=18 e idade=19"
+        },
+        {
+          "key": "C",
+          "text": "idade=16 e idade=17"
+        },
+        {
+          "key": "D",
+          "text": "idade=16 e idade=19"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são: idade < 18 e idade ≥ 18. A cobertura mínima via EP usa um representante de cada classe (ex.: idade=17 e idade=18).",
+      "tags": [
+        "ep",
+        "cadastro de usuário"
+      ]
+    },
+    {
+      "id": "ctfl-pt-018",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se peso ≤ 30kg, permitir envio padrão; se peso > 30kg, exigir envio especial. Usando Particionamento de Equivalência, qual conjunto de testes fornece cobertura mínima (1 por classe)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "peso=30 e peso=31"
+        },
+        {
+          "key": "B",
+          "text": "peso=31 e peso=50"
+        },
+        {
+          "key": "C",
+          "text": "peso=10 e peso=30"
+        },
+        {
+          "key": "D",
+          "text": "peso=10 e peso=50"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são: peso ≤ 30 e peso > 30. A cobertura mínima via EP usa um representante de cada classe (ex.: peso=30 e peso=31).",
+      "tags": [
+        "ep",
+        "frete"
+      ]
+    },
+    {
+      "id": "ctfl-pt-019",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se valor do pedido ≥ R$100, cupom de 10% é aceito; caso contrário, rejeitar. Usando Particionamento de Equivalência, qual conjunto de testes fornece cobertura mínima (1 por classe)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "R$99 e R$100"
+        },
+        {
+          "key": "B",
+          "text": "R$100 e R$150"
+        },
+        {
+          "key": "C",
+          "text": "R$50 e R$99"
+        },
+        {
+          "key": "D",
+          "text": "R$50 e R$150"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são: valor < 100 e valor ≥ 100. A cobertura mínima via EP usa um representante de cada classe (ex.: R$99 e R$100).",
+      "tags": [
+        "ep",
+        "cupom"
+      ]
+    },
+    {
+      "id": "ctfl-pt-020",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Senha deve ter entre 8 e 20 caracteres (inclusive). Usando Particionamento de Equivalência, qual conjunto de testes fornece cobertura mínima (1 por classe)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "7 caracteres e 8 caracteres"
+        },
+        {
+          "key": "B",
+          "text": "8 caracteres e 20 caracteres"
+        },
+        {
+          "key": "C",
+          "text": "5 caracteres e 7 caracteres"
+        },
+        {
+          "key": "D",
+          "text": "5 caracteres e 20 caracteres"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são: tamanho < 8 e 8 a 20. A cobertura mínima via EP usa um representante de cada classe (ex.: 7 caracteres e 8 caracteres).",
+      "tags": [
+        "ep",
+        "senha"
+      ]
+    },
+    {
+      "id": "ctfl-pt-021",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Idade permitida é de 18 a 65 anos (inclusive). Qual conjunto de valores é mais apropriado para Análise de Valor Limite (BVA) considerando limites inclusivos?",
+      "options": [
+        {
+          "key": "A",
+          "text": "17, 18, 19, 64, 65, 66"
+        },
+        {
+          "key": "B",
+          "text": "20, 21, 62, 63"
+        },
+        {
+          "key": "C",
+          "text": "18, 65"
+        },
+        {
+          "key": "D",
+          "text": "17, 66"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA foca nos limites e vizinhanças: imediatamente abaixo, no limite e imediatamente acima de cada fronteira.",
+      "tags": [
+        "bva",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-022",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Quantidade permitida é de 1 a 10 itens (inclusive). Qual conjunto de valores é mais apropriado para Análise de Valor Limite (BVA) considerando limites inclusivos?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0, 1, 2, 9, 10, 11"
+        },
+        {
+          "key": "B",
+          "text": "3, 4, 7, 8"
+        },
+        {
+          "key": "C",
+          "text": "1, 10"
+        },
+        {
+          "key": "D",
+          "text": "0, 11"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA foca nos limites e vizinhanças: imediatamente abaixo, no limite e imediatamente acima de cada fronteira.",
+      "tags": [
+        "bva",
+        "quantidade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-023",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Nota válida é de 0 a 100 (inclusive). Qual conjunto de valores é mais apropriado para Análise de Valor Limite (BVA) considerando limites inclusivos?",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1, 0, 1, 99, 100, 101"
+        },
+        {
+          "key": "B",
+          "text": "2, 3, 97, 98"
+        },
+        {
+          "key": "C",
+          "text": "0, 100"
+        },
+        {
+          "key": "D",
+          "text": "-1, 101"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA foca nos limites e vizinhanças: imediatamente abaixo, no limite e imediatamente acima de cada fronteira.",
+      "tags": [
+        "bva",
+        "nota"
+      ]
+    },
+    {
+      "id": "ctfl-pt-024",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Parcelamento permitido é de 1 a 12 (inclusive). Qual conjunto de valores é mais apropriado para Análise de Valor Limite (BVA) considerando limites inclusivos?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0, 1, 2, 11, 12, 13"
+        },
+        {
+          "key": "B",
+          "text": "3, 4, 9, 10"
+        },
+        {
+          "key": "C",
+          "text": "1, 12"
+        },
+        {
+          "key": "D",
+          "text": "0, 13"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA foca nos limites e vizinhanças: imediatamente abaixo, no limite e imediatamente acima de cada fronteira.",
+      "tags": [
+        "bva",
+        "parcelas"
+      ]
+    },
+    {
+      "id": "ctfl-pt-025",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Você está modelando uma Tabela de Decisão para aprovação de compra. Considerando 3 condições binárias (Sim/Não), quantas regras (colunas) são necessárias para cobrir todas as combinações?",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Para condições binárias independentes, o número de combinações é 2^n. Aqui: 2^3 = 8 regras.",
+      "tags": [
+        "tabela-decisao",
+        "aprovação de compra"
+      ]
+    },
+    {
+      "id": "ctfl-pt-026",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Você está modelando uma Tabela de Decisão para login com MFA. Considerando 2 condições binárias (Sim/Não), quantas regras (colunas) são necessárias para cobrir todas as combinações?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Para condições binárias independentes, o número de combinações é 2^n. Aqui: 2^2 = 4 regras.",
+      "tags": [
+        "tabela-decisao",
+        "login com MFA"
+      ]
+    },
+    {
+      "id": "ctfl-pt-027",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Você está modelando uma Tabela de Decisão para cancelamento. Considerando 3 condições binárias (Sim/Não), quantas regras (colunas) são necessárias para cobrir todas as combinações?",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Para condições binárias independentes, o número de combinações é 2^n. Aqui: 2^3 = 8 regras.",
+      "tags": [
+        "tabela-decisao",
+        "cancelamento"
+      ]
+    },
+    {
+      "id": "ctfl-pt-028",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K2",
+      "difficulty": "easy",
+      "timeLimitSec": 60,
+      "stem": "Qual técnica é melhor para derivar testes a partir de casos de uso e fluxos de negócio?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Teste de caixa-branca por caminhos"
+        },
+        {
+          "key": "B",
+          "text": "Teste baseado em checklist"
+        },
+        {
+          "key": "C",
+          "text": "Teste baseado em casos de uso"
+        },
+        {
+          "key": "D",
+          "text": "Análise de valor limite"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Testes baseados em casos de uso derivam cenários a partir de fluxos do usuário e exceções descritas nos casos de uso.",
+      "tags": [
+        "caso-de-uso"
+      ]
+    },
+    {
+      "id": "ctfl-pt-029",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual técnica de caixa-branca mede a proporção de decisões (if/else) exercitadas?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cobertura de instruções"
+        },
+        {
+          "key": "B",
+          "text": "Cobertura de decisão"
+        },
+        {
+          "key": "C",
+          "text": "Cobertura de requisito"
+        },
+        {
+          "key": "D",
+          "text": "Cobertura de risco"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Cobertura de decisão mede se os ramos/decisões foram exercitados (verdadeiro e falso).",
+      "tags": [
+        "caixa-branca",
+        "cobertura"
+      ]
+    },
+    {
+      "id": "ctfl-pt-030",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K2",
+      "difficulty": "easy",
+      "timeLimitSec": 60,
+      "stem": "Em termos gerais, qual é a principal diferença entre EP e BVA?",
+      "options": [
+        {
+          "key": "A",
+          "text": "EP seleciona dados por classes; BVA foca em limites dessas classes."
+        },
+        {
+          "key": "B",
+          "text": "EP só funciona para dados numéricos; BVA só para texto."
+        },
+        {
+          "key": "C",
+          "text": "EP é técnica de caixa-branca; BVA é caixa-preta."
+        },
+        {
+          "key": "D",
+          "text": "Ambas são idênticas, apenas nomes diferentes."
+        }
+      ],
+      "correct": "A",
+      "explanation": "EP divide o domínio em classes equivalentes; BVA explora valores próximos às fronteiras onde defeitos tendem a ocorrer.",
+      "tags": [
+        "ep",
+        "bva"
+      ]
+    },
+    {
+      "id": "ctfl-pt-031",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K2",
+      "difficulty": "easy",
+      "timeLimitSec": 60,
+      "stem": "Qual técnica é mais indicada quando regras de negócio dependem do estado atual (ex.: 'bloqueado', 'ativo', 'pendente')?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tabela de decisão"
+        },
+        {
+          "key": "B",
+          "text": "Transição de estados"
+        },
+        {
+          "key": "C",
+          "text": "Particionamento de equivalência"
+        },
+        {
+          "key": "D",
+          "text": "Cobertura de instruções"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Quando o comportamento muda por estado e transição, a técnica de transição de estados modela estados, eventos e transições válidas/ inválidas.",
+      "tags": [
+        "transicao-estados"
+      ]
+    },
+    {
+      "id": "ctfl-pt-032",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K2",
+      "difficulty": "easy",
+      "timeLimitSec": 60,
+      "stem": "Em Teste de Transição de Estados para conta bancária, qual objetivo principal dessa técnica?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Validar performance sob carga em cada estado."
+        },
+        {
+          "key": "B",
+          "text": "Derivar testes a partir de estados e transições, incluindo transições inválidas."
+        },
+        {
+          "key": "C",
+          "text": "Garantir que todos os caminhos de código foram executados."
+        },
+        {
+          "key": "D",
+          "text": "Gerar testes apenas para o caminho feliz."
+        }
+      ],
+      "correct": "B",
+      "explanation": "A técnica usa um modelo de estados/transições para criar testes que cobrem transições válidas e inválidas, especialmente regras de negócio dependentes de estado.",
+      "tags": [
+        "transicao-estados",
+        "conta bancária"
+      ]
+    },
+    {
+      "id": "ctfl-pt-033",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "easy",
+      "timeLimitSec": 60,
+      "stem": "O que melhor descreve 'teste baseado em risco'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Escolher testes aleatoriamente para maximizar diversidade."
+        },
+        {
+          "key": "B",
+          "text": "Priorizar e selecionar testes conforme a probabilidade e impacto de falhas."
+        },
+        {
+          "key": "C",
+          "text": "Executar somente testes automatizados em produção."
+        },
+        {
+          "key": "D",
+          "text": "Testar apenas requisitos funcionais."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Teste baseado em risco usa avaliação de risco (probabilidade × impacto) para priorizar esforço, cobertura e ordem de execução.",
+      "tags": [
+        "risco",
+        "priorizacao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-034",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual item é tipicamente definido em um Plano de Teste?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chaves privadas de produção"
+        },
+        {
+          "key": "B",
+          "text": "Escopo, abordagem, recursos e cronograma de testes"
+        },
+        {
+          "key": "C",
+          "text": "Código-fonte completo do sistema"
+        },
+        {
+          "key": "D",
+          "text": "Somente a lista de bugs já conhecidos"
+        }
+      ],
+      "correct": "B",
+      "explanation": "O plano descreve escopo, estratégia/abordagem, papéis, ambientes, cronograma, critérios e entregáveis de teste.",
+      "tags": [
+        "plano-teste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-035",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual opção é um exemplo de 'critério de saída'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ambiente de teste provisionado e estável"
+        },
+        {
+          "key": "B",
+          "text": "Cobertura de risco atingiu o nível acordado e não há defeitos críticos abertos"
+        },
+        {
+          "key": "C",
+          "text": "Backlog priorizado pelo PO"
+        },
+        {
+          "key": "D",
+          "text": "Código revisado por um colega"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Critérios de saída definem condições para encerrar um nível/ciclo (ex.: cobertura, qualidade mínima, severidades).",
+      "tags": [
+        "criterios",
+        "saida"
+      ]
+    },
+    {
+      "id": "ctfl-pt-036",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual é uma diferença típica entre estimativa baseada em métricas e baseada em opinião especializada?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Métricas usam dados históricos; opinião especializada usa experiência e julgamento."
+        },
+        {
+          "key": "B",
+          "text": "Métricas sempre são mais precisas."
+        },
+        {
+          "key": "C",
+          "text": "Opinião especializada sempre ignora riscos."
+        },
+        {
+          "key": "D",
+          "text": "Não existe diferença prática."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Estimativas podem usar histórico (produtividade, defeitos, tamanho) e/ou julgamento de especialistas; ambas têm incertezas.",
+      "tags": [
+        "estimativa"
+      ]
+    },
+    {
+      "id": "ctfl-pt-037",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Qual métrica é mais diretamente relacionada à eficácia do teste em encontrar defeitos antes da liberação?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Taxa de escape de defeitos (defect leakage/escape)"
+        },
+        {
+          "key": "B",
+          "text": "Número de commits por dia"
+        },
+        {
+          "key": "C",
+          "text": "Tempo médio de build"
+        },
+        {
+          "key": "D",
+          "text": "Quantidade de reuniões por sprint"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Escape mede defeitos encontrados após uma fase/liberação; menor escape indica maior eficácia (com contexto e qualidade de dados).",
+      "tags": [
+        "metricas",
+        "qualidade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-038",
+      "chapter": 6,
+      "chapterName": "Ferramentas de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual é um benefício típico de ferramentas de gerenciamento de testes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Corrigir automaticamente defeitos em produção."
+        },
+        {
+          "key": "B",
+          "text": "Apoiar rastreabilidade, planejamento, execução e evidências de teste."
+        },
+        {
+          "key": "C",
+          "text": "Substituir a necessidade de análise de risco."
+        },
+        {
+          "key": "D",
+          "text": "Garantir 100% de cobertura de requisitos."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ferramentas de gerenciamento ajudam a organizar casos, execuções, evidências, métricas e rastreabilidade, mas não garantem cobertura total sozinhas.",
+      "tags": [
+        "ferramentas",
+        "gestao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-039",
+      "chapter": 6,
+      "chapterName": "Ferramentas de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual ferramenta é mais associada à análise estática?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linter/SAST para código (ex.: regras de qualidade e possíveis bugs)"
+        },
+        {
+          "key": "B",
+          "text": "Gerenciador de defeitos"
+        },
+        {
+          "key": "C",
+          "text": "Ferramenta de monitoramento de produção"
+        },
+        {
+          "key": "D",
+          "text": "Ferramenta de teste de carga"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Análise estática tipicamente envolve linters/SAST e ferramentas que verificam padrões e possíveis problemas sem executar o programa.",
+      "tags": [
+        "analise-estatica",
+        "ferramentas"
+      ]
+    },
+    {
+      "id": "ctfl-pt-040",
+      "chapter": 6,
+      "chapterName": "Ferramentas de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual risco é comum ao introduzir automação de testes sem estratégia?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Redução de execução repetitiva"
+        },
+        {
+          "key": "B",
+          "text": "Aumento de manutenção e falsos positivos, gerando perda de confiança"
+        },
+        {
+          "key": "C",
+          "text": "Melhoria imediata da qualidade sem esforço"
+        },
+        {
+          "key": "D",
+          "text": "Eliminação de testes manuais"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Sem estratégia, automação pode gerar flakiness, alto custo de manutenção e relatórios pouco confiáveis, prejudicando credibilidade.",
+      "tags": [
+        "automacao",
+        "manutencao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-041",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **caso de teste** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "um conjunto de pré-condições, entradas, ações (quando aplicável), resultados esperados e pós-condições para validar um objetivo de teste"
+        },
+        {
+          "key": "B",
+          "text": "um relatório de defeito com evidências"
+        },
+        {
+          "key": "C",
+          "text": "um script automatizado obrigatório"
+        },
+        {
+          "key": "D",
+          "text": "um requisito não funcional"
+        }
+      ],
+      "correct": "A",
+      "explanation": "caso de teste é: um conjunto de pré-condições, entradas, ações (quando aplicável), resultados esperados e pós-condições para validar um objetivo de teste",
+      "tags": [
+        "fundamentos",
+        "definicao",
+        "caso de teste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-042",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **condição de teste** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "um item ou evento testável derivado de requisitos, especificações ou experiência"
+        },
+        {
+          "key": "B",
+          "text": "um ambiente de teste pronto"
+        },
+        {
+          "key": "C",
+          "text": "um defeito confirmado"
+        },
+        {
+          "key": "D",
+          "text": "um critério de saída"
+        }
+      ],
+      "correct": "A",
+      "explanation": "condição de teste é: um item ou evento testável derivado de requisitos, especificações ou experiência",
+      "tags": [
+        "fundamentos",
+        "definicao",
+        "condição de teste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-043",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **erro humano** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "uma ação equivocada de uma pessoa que pode introduzir um defeito"
+        },
+        {
+          "key": "B",
+          "text": "uma falha em runtime"
+        },
+        {
+          "key": "C",
+          "text": "um requisito bem escrito"
+        },
+        {
+          "key": "D",
+          "text": "um teste automatizado instável"
+        }
+      ],
+      "correct": "A",
+      "explanation": "erro humano é: uma ação equivocada de uma pessoa que pode introduzir um defeito",
+      "tags": [
+        "fundamentos",
+        "definicao",
+        "erro humano"
+      ]
+    },
+    {
+      "id": "ctfl-pt-044",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **nível de teste** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "um grupo de atividades de teste relacionadas com um objetivo e foco em um ciclo de vida"
+        },
+        {
+          "key": "B",
+          "text": "um tipo de defeito"
+        },
+        {
+          "key": "C",
+          "text": "um ambiente de produção"
+        },
+        {
+          "key": "D",
+          "text": "um caso de uso"
+        }
+      ],
+      "correct": "A",
+      "explanation": "nível de teste é: um grupo de atividades de teste relacionadas com um objetivo e foco em um ciclo de vida",
+      "tags": [
+        "fundamentos",
+        "definicao",
+        "nível de teste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-045",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **teste de integração** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "teste que verifica interfaces e interações entre componentes/sistemas"
+        },
+        {
+          "key": "B",
+          "text": "teste para validar necessidade de negócio"
+        },
+        {
+          "key": "C",
+          "text": "teste focado em uma unidade isolada"
+        },
+        {
+          "key": "D",
+          "text": "teste para medir desempenho sob carga"
+        }
+      ],
+      "correct": "A",
+      "explanation": "teste de integração é: teste que verifica interfaces e interações entre componentes/sistemas",
+      "tags": [
+        "sdlc",
+        "definicao",
+        "teste de integração"
+      ]
+    },
+    {
+      "id": "ctfl-pt-046",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **teste de sistema** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "teste do sistema completo para verificar conformidade com requisitos"
+        },
+        {
+          "key": "B",
+          "text": "teste de uma classe isolada"
+        },
+        {
+          "key": "C",
+          "text": "revisão de requisito sem executar"
+        },
+        {
+          "key": "D",
+          "text": "teste apenas de UI sem backend"
+        }
+      ],
+      "correct": "A",
+      "explanation": "teste de sistema é: teste do sistema completo para verificar conformidade com requisitos",
+      "tags": [
+        "sdlc",
+        "definicao",
+        "teste de sistema"
+      ]
+    },
+    {
+      "id": "ctfl-pt-047",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **walkthrough** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "uma revisão na qual o autor conduz os participantes pelo artefato e coleta feedback"
+        },
+        {
+          "key": "B",
+          "text": "uma revisão formal com métricas e regras rígidas"
+        },
+        {
+          "key": "C",
+          "text": "um teste executando o software"
+        },
+        {
+          "key": "D",
+          "text": "um teste de regressão automatizado"
+        }
+      ],
+      "correct": "A",
+      "explanation": "walkthrough é: uma revisão na qual o autor conduz os participantes pelo artefato e coleta feedback",
+      "tags": [
+        "estatico",
+        "definicao",
+        "walkthrough"
+      ]
+    },
+    {
+      "id": "ctfl-pt-048",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **inspeção** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "um tipo de revisão formal com papéis definidos, regras e critérios de entrada/saída"
+        },
+        {
+          "key": "B",
+          "text": "uma sessão de brainstorming sem preparação"
+        },
+        {
+          "key": "C",
+          "text": "um teste de desempenho"
+        },
+        {
+          "key": "D",
+          "text": "um teste exploratório"
+        }
+      ],
+      "correct": "A",
+      "explanation": "inspeção é: um tipo de revisão formal com papéis definidos, regras e critérios de entrada/saída",
+      "tags": [
+        "estatico",
+        "definicao",
+        "inspeção"
+      ]
+    },
+    {
+      "id": "ctfl-pt-049",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **risco do produto** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "risco de que o software não atenda qualidade/funcionalidade, causando impacto aos stakeholders"
+        },
+        {
+          "key": "B",
+          "text": "risco de faltar café na daily"
+        },
+        {
+          "key": "C",
+          "text": "risco de o time aumentar headcount"
+        },
+        {
+          "key": "D",
+          "text": "risco de build ficar mais rápido"
+        }
+      ],
+      "correct": "A",
+      "explanation": "risco do produto é: risco de que o software não atenda qualidade/funcionalidade, causando impacto aos stakeholders",
+      "tags": [
+        "gestao",
+        "definicao",
+        "risco do produto"
+      ]
+    },
+    {
+      "id": "ctfl-pt-050",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "O que melhor define **critério de entrada** no contexto de teste de software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "condição que deve ser satisfeita antes de iniciar uma atividade de teste"
+        },
+        {
+          "key": "B",
+          "text": "condição para encerrar testes"
+        },
+        {
+          "key": "C",
+          "text": "lista de defeitos fechados"
+        },
+        {
+          "key": "D",
+          "text": "meta de vendas trimestral"
+        }
+      ],
+      "correct": "A",
+      "explanation": "critério de entrada é: condição que deve ser satisfeita antes de iniciar uma atividade de teste",
+      "tags": [
+        "gestao",
+        "definicao",
+        "critério de entrada"
+      ]
+    },
+    {
+      "id": "ctfl-pt-051",
+      "chapter": 1,
+      "chapterName": "Fundamentos de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual exemplo ilustra melhor o princípio de 'agrupamento de defeitos'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A maioria dos defeitos tende a se concentrar em poucas áreas do sistema."
+        },
+        {
+          "key": "B",
+          "text": "Quanto mais você testa, menos defeitos existem no código."
+        },
+        {
+          "key": "C",
+          "text": "Testes devem ser repetidos exatamente do mesmo modo sempre."
+        },
+        {
+          "key": "D",
+          "text": "Se não há defeitos encontrados, o sistema atende ao usuário."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Defeitos frequentemente se concentram em módulos mais complexos/alterados; isso orienta foco e risco.",
+      "tags": [
+        "principios",
+        "agrupamento"
+      ]
+    },
+    {
+      "id": "ctfl-pt-052",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual prática é mais alinhada a integração contínua (CI) para apoiar qualidade?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Executar testes apenas no final do sprint."
+        },
+        {
+          "key": "B",
+          "text": "Rodar um conjunto rápido de testes automatizados a cada commit/merge."
+        },
+        {
+          "key": "C",
+          "text": "Evitar testes automatizados para não atrasar o time."
+        },
+        {
+          "key": "D",
+          "text": "Congelar mudanças por semanas antes de testar."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Em CI, feedback rápido é essencial; um smoke/regressão curta em cada mudança reduz risco e detecta problemas cedo.",
+      "tags": [
+        "ci",
+        "automacao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-053",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Você tem tempo reduzido para testar uma entrega crítica. Qual abordagem é mais defensável?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Executar casos aleatórios para 'cobrir tudo'."
+        },
+        {
+          "key": "B",
+          "text": "Priorizar testes por risco (impacto × probabilidade) e executar os mais críticos primeiro."
+        },
+        {
+          "key": "C",
+          "text": "Cancelar testes e confiar em produção."
+        },
+        {
+          "key": "D",
+          "text": "Executar apenas testes de UI, ignorando backend."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Com restrição de tempo, priorização por risco maximiza valor e reduz chance de falhas severas escaparem.",
+      "tags": [
+        "risco",
+        "priorizacao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-054",
+      "chapter": 6,
+      "chapterName": "Ferramentas de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual métrica ajuda a monitorar a saúde de uma suíte automatizada (flakiness)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Percentual de testes que falham de forma intermitente sem mudança funcional."
+        },
+        {
+          "key": "B",
+          "text": "Quantidade de reuniões agendadas."
+        },
+        {
+          "key": "C",
+          "text": "Número total de linhas de código do produto."
+        },
+        {
+          "key": "D",
+          "text": "Tempo de contratação do time."
+        }
+      ],
+      "correct": "A",
+      "explanation": "Flakiness indica instabilidade de testes; acompanhar falhas intermitentes orienta melhoria de confiabilidade.",
+      "tags": [
+        "automacao",
+        "metricas"
+      ]
+    },
+    {
+      "id": "ctfl-pt-055",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Tempo de sessão válida é de 0 a 20 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1, 0, 1, 19, 20, 21"
+        },
+        {
+          "key": "B",
+          "text": "2, 3, 17, 18"
+        },
+        {
+          "key": "C",
+          "text": "0, 20"
+        },
+        {
+          "key": "D",
+          "text": "-1, 21"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "tempo de sessão"
+      ]
+    },
+    {
+      "id": "ctfl-pt-056",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Idade válida é de 5 a 30 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4, 5, 6, 29, 30, 31"
+        },
+        {
+          "key": "B",
+          "text": "7, 8, 27, 28"
+        },
+        {
+          "key": "C",
+          "text": "5, 30"
+        },
+        {
+          "key": "D",
+          "text": "4, 31"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-057",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Tempo de sessão válida é de 1 a 20 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0, 1, 2, 19, 20, 21"
+        },
+        {
+          "key": "B",
+          "text": "3, 4, 17, 18"
+        },
+        {
+          "key": "C",
+          "text": "1, 20"
+        },
+        {
+          "key": "D",
+          "text": "0, 21"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "tempo de sessão"
+      ]
+    },
+    {
+      "id": "ctfl-pt-058",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Quantidade de itens válida é de 18 a 20 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "17, 18, 19, 19, 20, 21"
+        },
+        {
+          "key": "B",
+          "text": "20, 21, 17, 18"
+        },
+        {
+          "key": "C",
+          "text": "18, 20"
+        },
+        {
+          "key": "D",
+          "text": "17, 21"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "quantidade de itens"
+      ]
+    },
+    {
+      "id": "ctfl-pt-059",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Desconto válida é de 10 a 20 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9, 10, 11, 19, 20, 21"
+        },
+        {
+          "key": "B",
+          "text": "12, 13, 17, 18"
+        },
+        {
+          "key": "C",
+          "text": "10, 20"
+        },
+        {
+          "key": "D",
+          "text": "9, 21"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "desconto"
+      ]
+    },
+    {
+      "id": "ctfl-pt-060",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Idade válida é de 0 a 30 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1, 0, 1, 29, 30, 31"
+        },
+        {
+          "key": "B",
+          "text": "2, 3, 27, 28"
+        },
+        {
+          "key": "C",
+          "text": "0, 30"
+        },
+        {
+          "key": "D",
+          "text": "-1, 31"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-061",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Desconto válida é de 18 a 120 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "17, 18, 19, 119, 120, 121"
+        },
+        {
+          "key": "B",
+          "text": "20, 21, 117, 118"
+        },
+        {
+          "key": "C",
+          "text": "18, 120"
+        },
+        {
+          "key": "D",
+          "text": "17, 121"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "desconto"
+      ]
+    },
+    {
+      "id": "ctfl-pt-062",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Tempo de sessão válida é de 18 a 30 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "17, 18, 19, 29, 30, 31"
+        },
+        {
+          "key": "B",
+          "text": "20, 21, 27, 28"
+        },
+        {
+          "key": "C",
+          "text": "18, 30"
+        },
+        {
+          "key": "D",
+          "text": "17, 31"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "tempo de sessão"
+      ]
+    },
+    {
+      "id": "ctfl-pt-063",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Idade válida é de 18 a 100 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "17, 18, 19, 99, 100, 101"
+        },
+        {
+          "key": "B",
+          "text": "20, 21, 97, 98"
+        },
+        {
+          "key": "C",
+          "text": "18, 100"
+        },
+        {
+          "key": "D",
+          "text": "17, 101"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-064",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Pontuação válida é de 10 a 120 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9, 10, 11, 119, 120, 121"
+        },
+        {
+          "key": "B",
+          "text": "12, 13, 117, 118"
+        },
+        {
+          "key": "C",
+          "text": "10, 120"
+        },
+        {
+          "key": "D",
+          "text": "9, 121"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "pontuação"
+      ]
+    },
+    {
+      "id": "ctfl-pt-065",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Tempo de sessão válida é de 0 a 30 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1, 0, 1, 29, 30, 31"
+        },
+        {
+          "key": "B",
+          "text": "2, 3, 27, 28"
+        },
+        {
+          "key": "C",
+          "text": "0, 30"
+        },
+        {
+          "key": "D",
+          "text": "-1, 31"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "tempo de sessão"
+      ]
+    },
+    {
+      "id": "ctfl-pt-066",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Pontuação válida é de 10 a 50 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9, 10, 11, 49, 50, 51"
+        },
+        {
+          "key": "B",
+          "text": "12, 13, 47, 48"
+        },
+        {
+          "key": "C",
+          "text": "10, 50"
+        },
+        {
+          "key": "D",
+          "text": "9, 51"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "pontuação"
+      ]
+    },
+    {
+      "id": "ctfl-pt-067",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Pontuação válida é de 1 a 30 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0, 1, 2, 29, 30, 31"
+        },
+        {
+          "key": "B",
+          "text": "3, 4, 27, 28"
+        },
+        {
+          "key": "C",
+          "text": "1, 30"
+        },
+        {
+          "key": "D",
+          "text": "0, 31"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "pontuação"
+      ]
+    },
+    {
+      "id": "ctfl-pt-068",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Limite de saque válida é de 0 a 20 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1, 0, 1, 19, 20, 21"
+        },
+        {
+          "key": "B",
+          "text": "2, 3, 17, 18"
+        },
+        {
+          "key": "C",
+          "text": "0, 20"
+        },
+        {
+          "key": "D",
+          "text": "-1, 21"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "limite de saque"
+      ]
+    },
+    {
+      "id": "ctfl-pt-069",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Pontuação válida é de 0 a 50 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1, 0, 1, 49, 50, 51"
+        },
+        {
+          "key": "B",
+          "text": "2, 3, 47, 48"
+        },
+        {
+          "key": "C",
+          "text": "0, 50"
+        },
+        {
+          "key": "D",
+          "text": "-1, 51"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "pontuação"
+      ]
+    },
+    {
+      "id": "ctfl-pt-070",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Desconto válida é de 18 a 50 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "17, 18, 19, 49, 50, 51"
+        },
+        {
+          "key": "B",
+          "text": "20, 21, 47, 48"
+        },
+        {
+          "key": "C",
+          "text": "18, 50"
+        },
+        {
+          "key": "D",
+          "text": "17, 51"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "desconto"
+      ]
+    },
+    {
+      "id": "ctfl-pt-071",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Desconto válida é de 10 a 120 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9, 10, 11, 119, 120, 121"
+        },
+        {
+          "key": "B",
+          "text": "12, 13, 117, 118"
+        },
+        {
+          "key": "C",
+          "text": "10, 120"
+        },
+        {
+          "key": "D",
+          "text": "9, 121"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "desconto"
+      ]
+    },
+    {
+      "id": "ctfl-pt-072",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Quantidade de itens válida é de 10 a 20 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "9, 10, 11, 19, 20, 21"
+        },
+        {
+          "key": "B",
+          "text": "12, 13, 17, 18"
+        },
+        {
+          "key": "C",
+          "text": "10, 20"
+        },
+        {
+          "key": "D",
+          "text": "9, 21"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "quantidade de itens"
+      ]
+    },
+    {
+      "id": "ctfl-pt-073",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Pontuação válida é de 5 a 120 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4, 5, 6, 119, 120, 121"
+        },
+        {
+          "key": "B",
+          "text": "7, 8, 117, 118"
+        },
+        {
+          "key": "C",
+          "text": "5, 120"
+        },
+        {
+          "key": "D",
+          "text": "4, 121"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "pontuação"
+      ]
+    },
+    {
+      "id": "ctfl-pt-074",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "hard",
+      "timeLimitSec": 135,
+      "stem": "Para a regra: Tempo de sessão válida é de 18 a 30 (inclusive). Qual conjunto de valores é mais adequado para BVA (limites inclusivos)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "17, 18, 19, 29, 30, 31"
+        },
+        {
+          "key": "B",
+          "text": "20, 21, 27, 28"
+        },
+        {
+          "key": "C",
+          "text": "18, 30"
+        },
+        {
+          "key": "D",
+          "text": "17, 31"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BVA prioriza valores na vizinhança dos limites: logo abaixo, no limite e logo acima, em cada fronteira.",
+      "tags": [
+        "bva",
+        "tempo de sessão"
+      ]
+    },
+    {
+      "id": "ctfl-pt-075",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se valor < 30, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "valor=29 e valor=30"
+        },
+        {
+          "key": "B",
+          "text": "valor=30 e valor=31"
+        },
+        {
+          "key": "C",
+          "text": "valor=28 e valor=29"
+        },
+        {
+          "key": "D",
+          "text": "valor=31 e valor=32"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são valor<30 e valor≥30. Um valor representativo de cada classe cobre minimamente (ex.: 29 e 30).",
+      "tags": [
+        "ep",
+        "cadastro",
+        "valor"
+      ]
+    },
+    {
+      "id": "ctfl-pt-076",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se valor < 30, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "valor=29 e valor=30"
+        },
+        {
+          "key": "B",
+          "text": "valor=30 e valor=31"
+        },
+        {
+          "key": "C",
+          "text": "valor=28 e valor=29"
+        },
+        {
+          "key": "D",
+          "text": "valor=31 e valor=32"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são valor<30 e valor≥30. Um valor representativo de cada classe cobre minimamente (ex.: 29 e 30).",
+      "tags": [
+        "ep",
+        "frete",
+        "valor"
+      ]
+    },
+    {
+      "id": "ctfl-pt-077",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se tempo < 50, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "tempo=49 e tempo=50"
+        },
+        {
+          "key": "B",
+          "text": "tempo=50 e tempo=51"
+        },
+        {
+          "key": "C",
+          "text": "tempo=48 e tempo=49"
+        },
+        {
+          "key": "D",
+          "text": "tempo=51 e tempo=52"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são tempo<50 e tempo≥50. Um valor representativo de cada classe cobre minimamente (ex.: 49 e 50).",
+      "tags": [
+        "ep",
+        "cadastro",
+        "tempo"
+      ]
+    },
+    {
+      "id": "ctfl-pt-078",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se idade < 30, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "idade=29 e idade=30"
+        },
+        {
+          "key": "B",
+          "text": "idade=30 e idade=31"
+        },
+        {
+          "key": "C",
+          "text": "idade=28 e idade=29"
+        },
+        {
+          "key": "D",
+          "text": "idade=31 e idade=32"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são idade<30 e idade≥30. Um valor representativo de cada classe cobre minimamente (ex.: 29 e 30).",
+      "tags": [
+        "ep",
+        "login",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-079",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se idade < 30, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "idade=29 e idade=30"
+        },
+        {
+          "key": "B",
+          "text": "idade=30 e idade=31"
+        },
+        {
+          "key": "C",
+          "text": "idade=28 e idade=29"
+        },
+        {
+          "key": "D",
+          "text": "idade=31 e idade=32"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são idade<30 e idade≥30. Um valor representativo de cada classe cobre minimamente (ex.: 29 e 30).",
+      "tags": [
+        "ep",
+        "frete",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-080",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se idade < 10, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "idade=9 e idade=10"
+        },
+        {
+          "key": "B",
+          "text": "idade=10 e idade=11"
+        },
+        {
+          "key": "C",
+          "text": "idade=8 e idade=9"
+        },
+        {
+          "key": "D",
+          "text": "idade=11 e idade=12"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são idade<10 e idade≥10. Um valor representativo de cada classe cobre minimamente (ex.: 9 e 10).",
+      "tags": [
+        "ep",
+        "cancelamento",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-081",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se peso < 30, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "peso=29 e peso=30"
+        },
+        {
+          "key": "B",
+          "text": "peso=30 e peso=31"
+        },
+        {
+          "key": "C",
+          "text": "peso=28 e peso=29"
+        },
+        {
+          "key": "D",
+          "text": "peso=31 e peso=32"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são peso<30 e peso≥30. Um valor representativo de cada classe cobre minimamente (ex.: 29 e 30).",
+      "tags": [
+        "ep",
+        "assinatura",
+        "peso"
+      ]
+    },
+    {
+      "id": "ctfl-pt-082",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se tempo < 100, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "tempo=99 e tempo=100"
+        },
+        {
+          "key": "B",
+          "text": "tempo=100 e tempo=101"
+        },
+        {
+          "key": "C",
+          "text": "tempo=98 e tempo=99"
+        },
+        {
+          "key": "D",
+          "text": "tempo=101 e tempo=102"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são tempo<100 e tempo≥100. Um valor representativo de cada classe cobre minimamente (ex.: 99 e 100).",
+      "tags": [
+        "ep",
+        "pagamento",
+        "tempo"
+      ]
+    },
+    {
+      "id": "ctfl-pt-083",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se quantidade < 30, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "quantidade=29 e quantidade=30"
+        },
+        {
+          "key": "B",
+          "text": "quantidade=30 e quantidade=31"
+        },
+        {
+          "key": "C",
+          "text": "quantidade=28 e quantidade=29"
+        },
+        {
+          "key": "D",
+          "text": "quantidade=31 e quantidade=32"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são quantidade<30 e quantidade≥30. Um valor representativo de cada classe cobre minimamente (ex.: 29 e 30).",
+      "tags": [
+        "ep",
+        "frete",
+        "quantidade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-084",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se idade < 10, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "idade=9 e idade=10"
+        },
+        {
+          "key": "B",
+          "text": "idade=10 e idade=11"
+        },
+        {
+          "key": "C",
+          "text": "idade=8 e idade=9"
+        },
+        {
+          "key": "D",
+          "text": "idade=11 e idade=12"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são idade<10 e idade≥10. Um valor representativo de cada classe cobre minimamente (ex.: 9 e 10).",
+      "tags": [
+        "ep",
+        "cancelamento",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-085",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se valor < 50, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "valor=49 e valor=50"
+        },
+        {
+          "key": "B",
+          "text": "valor=50 e valor=51"
+        },
+        {
+          "key": "C",
+          "text": "valor=48 e valor=49"
+        },
+        {
+          "key": "D",
+          "text": "valor=51 e valor=52"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são valor<50 e valor≥50. Um valor representativo de cada classe cobre minimamente (ex.: 49 e 50).",
+      "tags": [
+        "ep",
+        "pagamento",
+        "valor"
+      ]
+    },
+    {
+      "id": "ctfl-pt-086",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se idade < 10, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "idade=9 e idade=10"
+        },
+        {
+          "key": "B",
+          "text": "idade=10 e idade=11"
+        },
+        {
+          "key": "C",
+          "text": "idade=8 e idade=9"
+        },
+        {
+          "key": "D",
+          "text": "idade=11 e idade=12"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são idade<10 e idade≥10. Um valor representativo de cada classe cobre minimamente (ex.: 9 e 10).",
+      "tags": [
+        "ep",
+        "login",
+        "idade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-087",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se quantidade < 50, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "quantidade=49 e quantidade=50"
+        },
+        {
+          "key": "B",
+          "text": "quantidade=50 e quantidade=51"
+        },
+        {
+          "key": "C",
+          "text": "quantidade=48 e quantidade=49"
+        },
+        {
+          "key": "D",
+          "text": "quantidade=51 e quantidade=52"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são quantidade<50 e quantidade≥50. Um valor representativo de cada classe cobre minimamente (ex.: 49 e 50).",
+      "tags": [
+        "ep",
+        "pagamento",
+        "quantidade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-088",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se tempo < 100, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "tempo=99 e tempo=100"
+        },
+        {
+          "key": "B",
+          "text": "tempo=100 e tempo=101"
+        },
+        {
+          "key": "C",
+          "text": "tempo=98 e tempo=99"
+        },
+        {
+          "key": "D",
+          "text": "tempo=101 e tempo=102"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são tempo<100 e tempo≥100. Um valor representativo de cada classe cobre minimamente (ex.: 99 e 100).",
+      "tags": [
+        "ep",
+        "pagamento",
+        "tempo"
+      ]
+    },
+    {
+      "id": "ctfl-pt-089",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se tempo < 30, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "tempo=29 e tempo=30"
+        },
+        {
+          "key": "B",
+          "text": "tempo=30 e tempo=31"
+        },
+        {
+          "key": "C",
+          "text": "tempo=28 e tempo=29"
+        },
+        {
+          "key": "D",
+          "text": "tempo=31 e tempo=32"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são tempo<30 e tempo≥30. Um valor representativo de cada classe cobre minimamente (ex.: 29 e 30).",
+      "tags": [
+        "ep",
+        "cancelamento",
+        "tempo"
+      ]
+    },
+    {
+      "id": "ctfl-pt-090",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se peso < 30, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "peso=29 e peso=30"
+        },
+        {
+          "key": "B",
+          "text": "peso=30 e peso=31"
+        },
+        {
+          "key": "C",
+          "text": "peso=28 e peso=29"
+        },
+        {
+          "key": "D",
+          "text": "peso=31 e peso=32"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são peso<30 e peso≥30. Um valor representativo de cada classe cobre minimamente (ex.: 29 e 30).",
+      "tags": [
+        "ep",
+        "frete",
+        "peso"
+      ]
+    },
+    {
+      "id": "ctfl-pt-091",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se quantidade < 50, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "quantidade=49 e quantidade=50"
+        },
+        {
+          "key": "B",
+          "text": "quantidade=50 e quantidade=51"
+        },
+        {
+          "key": "C",
+          "text": "quantidade=48 e quantidade=49"
+        },
+        {
+          "key": "D",
+          "text": "quantidade=51 e quantidade=52"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são quantidade<50 e quantidade≥50. Um valor representativo de cada classe cobre minimamente (ex.: 49 e 50).",
+      "tags": [
+        "ep",
+        "cancelamento",
+        "quantidade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-092",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se quantidade < 100, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "quantidade=99 e quantidade=100"
+        },
+        {
+          "key": "B",
+          "text": "quantidade=100 e quantidade=101"
+        },
+        {
+          "key": "C",
+          "text": "quantidade=98 e quantidade=99"
+        },
+        {
+          "key": "D",
+          "text": "quantidade=101 e quantidade=102"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são quantidade<100 e quantidade≥100. Um valor representativo de cada classe cobre minimamente (ex.: 99 e 100).",
+      "tags": [
+        "ep",
+        "cancelamento",
+        "quantidade"
+      ]
+    },
+    {
+      "id": "ctfl-pt-093",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se tempo < 50, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "tempo=49 e tempo=50"
+        },
+        {
+          "key": "B",
+          "text": "tempo=50 e tempo=51"
+        },
+        {
+          "key": "C",
+          "text": "tempo=48 e tempo=49"
+        },
+        {
+          "key": "D",
+          "text": "tempo=51 e tempo=52"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são tempo<50 e tempo≥50. Um valor representativo de cada classe cobre minimamente (ex.: 49 e 50).",
+      "tags": [
+        "ep",
+        "assinatura",
+        "tempo"
+      ]
+    },
+    {
+      "id": "ctfl-pt-094",
+      "chapter": 4,
+      "chapterName": "Técnicas de Teste",
+      "kLevel": "K3",
+      "difficulty": "medium",
+      "timeLimitSec": 105,
+      "stem": "Considere a regra: Se peso < 100, rejeitar; caso contrário, aceitar. Usando Particionamento de Equivalência, qual par cobre minimamente as classes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "peso=99 e peso=100"
+        },
+        {
+          "key": "B",
+          "text": "peso=100 e peso=101"
+        },
+        {
+          "key": "C",
+          "text": "peso=98 e peso=99"
+        },
+        {
+          "key": "D",
+          "text": "peso=101 e peso=102"
+        }
+      ],
+      "correct": "A",
+      "explanation": "As classes são peso<100 e peso≥100. Um valor representativo de cada classe cobre minimamente (ex.: 99 e 100).",
+      "tags": [
+        "ep",
+        "pagamento",
+        "peso"
+      ]
+    },
+    {
+      "id": "ctfl-pt-095",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-096",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-097",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-098",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-099",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-100",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-101",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-102",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-103",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-104",
+      "chapter": 3,
+      "chapterName": "Teste Estático",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Em uma inspeção formal, qual prática aumenta a efetividade da revisão?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Entrar na reunião sem preparação para não enviesar."
+        },
+        {
+          "key": "B",
+          "text": "Usar checklist e preparação individual antes da reunião."
+        },
+        {
+          "key": "C",
+          "text": "Evitar registrar defeitos para manter clima positivo."
+        },
+        {
+          "key": "D",
+          "text": "Limitar participantes apenas ao autor."
+        }
+      ],
+      "correct": "B",
+      "explanation": "Preparação individual e checklists aumentam a chance de encontrar defeitos e tornam a reunião mais eficiente.",
+      "tags": [
+        "inspecao",
+        "checklist"
+      ]
+    },
+    {
+      "id": "ctfl-pt-105",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-106",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-107",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-108",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-109",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-110",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-111",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-112",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-113",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-114",
+      "chapter": 2,
+      "chapterName": "Teste ao Longo do Ciclo de Vida",
+      "kLevel": "K1",
+      "difficulty": "easy",
+      "timeLimitSec": 45,
+      "stem": "Qual tipo de teste é mais adequado para verificar se uma correção específica realmente resolveu o defeito reportado?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regressão"
+        },
+        {
+          "key": "B",
+          "text": "Confirmação (reteste)"
+        },
+        {
+          "key": "C",
+          "text": "Aceitação"
+        },
+        {
+          "key": "D",
+          "text": "Desempenho"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Reteste/Confirmação executa o(s) teste(s) focado(s) no defeito para confirmar a correção.",
+      "tags": [
+        "reteste"
+      ]
+    },
+    {
+      "id": "ctfl-pt-115",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual alternativa descreve melhor o propósito de um relatório de teste (test summary report)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Definir arquitetura do sistema."
+        },
+        {
+          "key": "B",
+          "text": "Resumir atividades, resultados, desvios, métricas e recomendações de qualidade para stakeholders."
+        },
+        {
+          "key": "C",
+          "text": "Substituir o backlog do produto."
+        },
+        {
+          "key": "D",
+          "text": "Registrar somente defeitos críticos."
+        }
+      ],
+      "correct": "B",
+      "explanation": "O relatório sumariza o que foi testado, resultados, métricas, riscos remanescentes e recomendações para decisão.",
+      "tags": [
+        "relatorio",
+        "gestao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-116",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual alternativa descreve melhor o propósito de um relatório de teste (test summary report)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Definir arquitetura do sistema."
+        },
+        {
+          "key": "B",
+          "text": "Resumir atividades, resultados, desvios, métricas e recomendações de qualidade para stakeholders."
+        },
+        {
+          "key": "C",
+          "text": "Substituir o backlog do produto."
+        },
+        {
+          "key": "D",
+          "text": "Registrar somente defeitos críticos."
+        }
+      ],
+      "correct": "B",
+      "explanation": "O relatório sumariza o que foi testado, resultados, métricas, riscos remanescentes e recomendações para decisão.",
+      "tags": [
+        "relatorio",
+        "gestao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-117",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual alternativa descreve melhor o propósito de um relatório de teste (test summary report)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Definir arquitetura do sistema."
+        },
+        {
+          "key": "B",
+          "text": "Resumir atividades, resultados, desvios, métricas e recomendações de qualidade para stakeholders."
+        },
+        {
+          "key": "C",
+          "text": "Substituir o backlog do produto."
+        },
+        {
+          "key": "D",
+          "text": "Registrar somente defeitos críticos."
+        }
+      ],
+      "correct": "B",
+      "explanation": "O relatório sumariza o que foi testado, resultados, métricas, riscos remanescentes e recomendações para decisão.",
+      "tags": [
+        "relatorio",
+        "gestao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-118",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual alternativa descreve melhor o propósito de um relatório de teste (test summary report)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Definir arquitetura do sistema."
+        },
+        {
+          "key": "B",
+          "text": "Resumir atividades, resultados, desvios, métricas e recomendações de qualidade para stakeholders."
+        },
+        {
+          "key": "C",
+          "text": "Substituir o backlog do produto."
+        },
+        {
+          "key": "D",
+          "text": "Registrar somente defeitos críticos."
+        }
+      ],
+      "correct": "B",
+      "explanation": "O relatório sumariza o que foi testado, resultados, métricas, riscos remanescentes e recomendações para decisão.",
+      "tags": [
+        "relatorio",
+        "gestao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-119",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual alternativa descreve melhor o propósito de um relatório de teste (test summary report)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Definir arquitetura do sistema."
+        },
+        {
+          "key": "B",
+          "text": "Resumir atividades, resultados, desvios, métricas e recomendações de qualidade para stakeholders."
+        },
+        {
+          "key": "C",
+          "text": "Substituir o backlog do produto."
+        },
+        {
+          "key": "D",
+          "text": "Registrar somente defeitos críticos."
+        }
+      ],
+      "correct": "B",
+      "explanation": "O relatório sumariza o que foi testado, resultados, métricas, riscos remanescentes e recomendações para decisão.",
+      "tags": [
+        "relatorio",
+        "gestao"
+      ]
+    },
+    {
+      "id": "ctfl-pt-120",
+      "chapter": 5,
+      "chapterName": "Gestão de Teste",
+      "kLevel": "K2",
+      "difficulty": "medium",
+      "timeLimitSec": 75,
+      "stem": "Qual alternativa descreve melhor o propósito de um relatório de teste (test summary report)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Definir arquitetura do sistema."
+        },
+        {
+          "key": "B",
+          "text": "Resumir atividades, resultados, desvios, métricas e recomendações de qualidade para stakeholders."
+        },
+        {
+          "key": "C",
+          "text": "Substituir o backlog do produto."
+        },
+        {
+          "key": "D",
+          "text": "Registrar somente defeitos críticos."
+        }
+      ],
+      "correct": "B",
+      "explanation": "O relatório sumariza o que foi testado, resultados, métricas, riscos remanescentes e recomendações para decisão.",
+      "tags": [
+        "relatorio",
+        "gestao"
+      ]
+    }
+  ]
+}
