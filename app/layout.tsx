@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className="bg-gradient-to-br from-zinc-100 via-white to-zinc-100" className="min-h-screen">
+     <body className="min-h-screen bg-gradient-to-br from-zinc-100 via-white to-zinc-100">
         <div className="mx-auto max-w-3xl px-4 py-8">
           <header className="mb-8 rounded-2xl border bg-white p-5 shadow-sm">
             <h1 className="text-2xl font-semibold">Simulado CTFL (PT-BR)</h1>
